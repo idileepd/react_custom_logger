@@ -1,8 +1,7 @@
 import React from "react";
-import LogList from "./components/LogList";
-
+import LogList from "./LogList";
 import { connect } from "react-redux";
-import { consoleLog } from "./actions";
+import { consoleLog } from "../actions";
 
 class App extends React.Component {
   render() {

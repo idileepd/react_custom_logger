@@ -4,6 +4,7 @@ export const consoleLog = (log) => {
   //api call can be made here for cleaner code
   return {
     type: "ADD_LOG",
-    payload: JSON.stringify(log),
+    // payload: JSON.stringify(log),
+    payload: log,
   };
 };
