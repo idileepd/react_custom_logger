@@ -9,13 +9,9 @@ class LogList extends React.Component {
       <div>
         {this.props.logsList.length > 0 && (
           <div>
-            {/* <h1>Logs List Component</h1> */}
-            {/* <ul> */}
             {this.props.logsList.map(function (item, i) {
-              // console.log("test");
               return <ReactJson key={i} src={item} />;
             })}
-            {/* </ul> */}
           </div>
         )}
       </div>

@@ -5,7 +5,7 @@ import { consoleLog } from "../actions";
 
 class App extends React.Component {
   render() {
-    console.log("[App]: rendering app");
+    this.props.consoleLog("[App]: rendering app");
     return (
       <div className="App">
         <header className="App-header">
